@@ -11,12 +11,12 @@ namespace TongDuongCheo
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-             Tong(4, 4);
+             Tong();
             Console.ReadLine();
         }
-        static void Tong( int hang, int cot)
+        static void Tong()
         {
-            int t = 0;
+            int t = 0,hang,cot;
             do
             {
                 Console.WriteLine("Tạo ma trận vuông có số hàng = số cột.");
